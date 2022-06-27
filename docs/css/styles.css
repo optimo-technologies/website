@@ -11360,10 +11360,14 @@ video.bg-video {
 .masthead .masthead-content h2, .masthead .masthead-content .h2 {
   font-size: 1.5rem;
 }
-.masthead .masthead-content p {
+.masthead .masthead-content p,
+.masthead .masthead-content ul,
+.masthead .masthead-content li {
   font-size: 1.2rem;
 }
-.masthead .masthead-content p strong {
+.masthead .masthead-content p strong,
+.masthead .masthead-content ul strong,
+.masthead .masthead-content li strong {
   font-weight: 700;
 }
 .masthead .masthead-content a {
@@ -11389,7 +11393,7 @@ video.bg-video {
     padding-top: 0;
     padding-bottom: 0;
     padding-left: 2rem;
-    padding-right: 9rem;
+    padding-right: 7rem;
   }
   .masthead .masthead-content h1, .masthead .masthead-content .h1 {
     font-size: 3.5rem;
@@ -11397,12 +11401,20 @@ video.bg-video {
   .masthead .masthead-content p {
     font-size: 1.3rem;
   }
+  .masthead .masthead-content ul,
+.masthead .masthead-content li {
+    font-size: 1.1rem;
+  }
 }
 @media (min-width: 1200px) {
   .masthead {
     width: 50vw;
   }
 }
+#contact-Form {
+  margin-top: 2rem;
+}
+
 .social-icons {
   position: relative;
   z-index: 2;
