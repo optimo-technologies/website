@@ -1,0 +1,42 @@
+// 
+// Social
+// 
+
+// Styling for the social icons
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    z-index: 1000;
+    background-color: fade-out($black, 0.5);
+    padding-left: 2rem;
+
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        font-family: $headings-font-family;
+        display: inline-block;
+        width: 300px;
+        line-height: 60px;
+        margin: 0;
+    }
+
+    img {
+        display: inline-block;
+        width: 150px;
+        vertical-align: middle;
+        margin-right: 30px;
+    }
+}
